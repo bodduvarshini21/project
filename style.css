@@ -1,0 +1,59 @@
+html,body {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  padding: 1em 1em;
+  font-size: 18px;
+  color:black
+}
+.header  {
+    padding: 0.1%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.logo {
+    padding:4px 32px;
+  }
+.content {
+    font-size: 4vmax;
+    text-align: center;
+    padding:5%;
+    font-weight: bold;
+    background-color: thistle;
+  }
+a {
+    font-size: 26px;
+    padding:10px;
+    text-decoration: none;
+  }
+ul {
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+    padding: 10;
+    gap: 10px;
+}
+.inner-link {
+    color:black;
+    padding:10px;
+    transition: 0.1s ease-in;
+}    
+.inner-link:hover {
+    background-color: black;
+    padding:10px;
+    color:white;  
+}
+h1,h2 {
+  font-weight: 100;
+  margin: 0.2em 0;
+  font-size: 2em;
+  color:black;
+}
+.aboutme{
+  text-align: center;
+  font-size: 5;
+}
+.name{
+  text-align: left;
+}
+
+
